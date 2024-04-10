@@ -1,0 +1,200 @@
+/*
+=========================================
+Brain Core Lab - Creative Dev Company
+Ing Juan Pablo Perez
+www.braincorelab.com
+=========================================
+*/
+
+
+.auth-bg-cover {
+    background: linear-gradient(-45deg, #8c8d91 50%, #1c1b1b) !important;
+}
+
+.bc-text-home{
+    color: #616161 !important;
+}
+
+.bc-btn-secondary{
+    background: #364C59 !important;
+    color:#fff !important;
+}
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+
+    background-color: #364C59;
+    color: #fff;
+
+}
+
+.navbar-menu .navbar-nav .nav-link[data-bs-toggle="collapse"]::after {
+    display: block !important;
+    margin-left: auto !important;
+    position: absolute !important;
+    right: 18px !important;
+}
+
+.profile-wid-bg::before {
+    background: -webkit-gradient(linear,left bottom,left top,from(#0220e5),to(#687cfe)) !important;
+    background: linear-gradient(to top,#ffffff03,#f0f0f09c) !important;
+}
+
+.nav-link {
+    color: #3a3939 !important;
+}
+
+.profile-setting-img {
+    position: relative;
+    height: 100px !important;
+}
+
+input.gridjs-input {
+    text-align: center !important;
+}
+
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage {
+    color: #ff7f5d !important;
+    text-decoration: none;
+    border-color: #fff !important;
+}
+
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage {
+    background-color: #eaeaea !important;
+}
+
+
+.gridjs-pagination .gridjs-pages button {
+    color: #616161 !important;
+}
+
+.gridjs-pagination .gridjs-pages button {
+    background-color: #fff;
+    border: 1px solid #f4f4f4 !important;
+
+}
+
+td.gridjs-td {
+    border: 1px solid #f4f5f7 !important;
+}
+
+.gridjs-wrapper {
+    box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.1),0 1px 2px 0 rgba(255, 255, 255, 0.22) !important;
+
+}
+
+.gridjs-footer {
+    box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.1),0 1px 2px 0 rgba(255, 255, 255, 0.26) !important;
+
+}
+
+.bc-icon {
+    font-size: 20px !important;
+    color: #616161 !important;
+}
+
+.mg-left{
+    margin-left: 10px !important;
+}
+
+.bc-aling-right {
+    text-align: right !important;
+}
+
+
+/*map*/
+
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#map {
+    height: 400px;
+    max-width: 100%;
+}
+
+.map {
+    height: 400px;
+    max-width: 100%;
+}
+
+.bc-text-success {
+    color: #76ad53 !important;
+
+}
+
+.bc-text-danger {
+    color: #ea5515 !important;
+
+}
+
+.bc-text-dark {
+    color: #2a2929 !important;
+
+}
+
+
+.bc-profile-wid-img {
+    opacity: 0.2 !important;
+}
+
+.bc-font-18{
+    font-size: 18px!important;
+}
+
+.bg-overlay {
+    background-color: #fff !important;
+}
+
+.text-confirmacion{
+    font-size: 16px !important;
+    color: #0f3356 !important;
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .logo-home{
+        max-width: 380px !important;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    .logo-home{
+        max-width: 250px !important;
+    }
+}
